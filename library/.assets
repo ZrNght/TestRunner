@@ -82,7 +82,14 @@
             "OBJECTS\\Environment\\tree.png",
             "OBJECTS\\Environment\\tree1.png",
             "scene.scene",
-            "PREFABS\\Enemy.prefab"
+            "PREFABS\\Enemy.prefab",
+            "OBJECTS\\Button.png",
+            "OBJECTS\\cursor.png",
+            "OBJECTS\\fail.png",
+            "OBJECTS\\heart.png",
+            "LilitaOne-Regular.ttf",
+            "SCRIPTS\\Pulse.ts",
+            "SCRIPTS\\ResponsiveText.ts"
         ]
     }
 }

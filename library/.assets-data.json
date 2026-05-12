@@ -2589,13 +2589,17 @@
         "d3faa3fe-bba9-4044-8ef8-31b851147a07@f9941",
         "6c54d9a0-4112-4516-935e-44a853508587@f9941",
         "ec5b8674-ade8-438d-96ba-62ea8e5e2e06",
-        "de183333-cf34-42e5-9615-fcc34bc0192a"
+        "de183333-cf34-42e5-9615-fcc34bc0192a",
+        "4f46e7dd-825a-46fc-9304-6b0cfba9884c@f9941",
+        "2c10f102-f20f-43cc-ad3e-2b627b2ecf30"
       ],
       "dependScripts": [
         "a05f193f-c8d5-4b3e-a0be-b512802962b6",
         "c49a6f9c-32c3-4714-bc77-8219f2eded59",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "771ed1d6-a6f2-4d2c-8f72-9ef50a2b21c2"
+        "771ed1d6-a6f2-4d2c-8f72-9ef50a2b21c2",
+        "1afe003f-3be4-4e24-b7d2-ffbe8cc24543",
+        "cea1b300-b519-4e2b-bda1-d9c3c99006a9"
       ]
     },
     "versionCode": 2
@@ -2615,5 +2619,122 @@
       "dependScripts": []
     },
     "versionCode": 2
+  },
+  "48c0efc0-fd7d-4a18-96a3-42f8453d90aa": {
+    "url": "db://assets/OBJECTS/Button.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4f46e7dd-825a-46fc-9304-6b0cfba9884c": {
+    "url": "db://assets/OBJECTS/cursor.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5ac9b824-5700-4af6-abcb-bfca2d123885": {
+    "url": "db://assets/OBJECTS/fail.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7f3032f6-8b36-4384-b722-58a4971dcb5b": {
+    "url": "db://assets/OBJECTS/heart.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "48c0efc0-fd7d-4a18-96a3-42f8453d90aa@6c48a": {
+    "url": "db://assets/OBJECTS/Button.png@6c48a",
+    "value": {
+      "depends": [
+        "48c0efc0-fd7d-4a18-96a3-42f8453d90aa"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4f46e7dd-825a-46fc-9304-6b0cfba9884c@6c48a": {
+    "url": "db://assets/OBJECTS/cursor.png@6c48a",
+    "value": {
+      "depends": [
+        "4f46e7dd-825a-46fc-9304-6b0cfba9884c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5ac9b824-5700-4af6-abcb-bfca2d123885@6c48a": {
+    "url": "db://assets/OBJECTS/fail.png@6c48a",
+    "value": {
+      "depends": [
+        "5ac9b824-5700-4af6-abcb-bfca2d123885"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7f3032f6-8b36-4384-b722-58a4971dcb5b@6c48a": {
+    "url": "db://assets/OBJECTS/heart.png@6c48a",
+    "value": {
+      "depends": [
+        "7f3032f6-8b36-4384-b722-58a4971dcb5b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5ac9b824-5700-4af6-abcb-bfca2d123885@f9941": {
+    "url": "db://assets/OBJECTS/fail.png@f9941",
+    "value": {
+      "depends": [
+        "5ac9b824-5700-4af6-abcb-bfca2d123885@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7f3032f6-8b36-4384-b722-58a4971dcb5b@f9941": {
+    "url": "db://assets/OBJECTS/heart.png@f9941",
+    "value": {
+      "depends": [
+        "7f3032f6-8b36-4384-b722-58a4971dcb5b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4f46e7dd-825a-46fc-9304-6b0cfba9884c@f9941": {
+    "url": "db://assets/OBJECTS/cursor.png@f9941",
+    "value": {
+      "depends": [
+        "4f46e7dd-825a-46fc-9304-6b0cfba9884c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48c0efc0-fd7d-4a18-96a3-42f8453d90aa@f9941": {
+    "url": "db://assets/OBJECTS/Button.png@f9941",
+    "value": {
+      "depends": [
+        "48c0efc0-fd7d-4a18-96a3-42f8453d90aa@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2c10f102-f20f-43cc-ad3e-2b627b2ecf30": {
+    "url": "db://assets/LilitaOne-Regular.ttf",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1afe003f-3be4-4e24-b7d2-ffbe8cc24543": {
+    "url": "db://assets/SCRIPTS/Pulse.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cea1b300-b519-4e2b-bda1-d9c3c99006a9": {
+    "url": "db://assets/SCRIPTS/ResponsiveText.ts",
+    "value": {},
+    "versionCode": 1
   }
 }

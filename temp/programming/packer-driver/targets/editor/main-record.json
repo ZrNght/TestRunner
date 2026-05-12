@@ -997,7 +997,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 82643.6265,
+      "mTimestamp": 5977113.8803,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1139,6 +1139,34 @@
               "column": 1558
             }
           }
+        },
+        {
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/Pulse.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1574
+            },
+            "end": {
+              "line": 5,
+              "column": 1700
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveText.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1716
+            },
+            "end": {
+              "line": 5,
+              "column": 1851
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1210,6 +1238,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/PlayerController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/Pulse.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveText.ts"
           },
           "messages": []
         }
@@ -1995,6 +2037,110 @@
             "end": {
               "line": 1,
               "column": 80
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/Pulse.ts": {
+      "mTimestamp": {
+        "mtime": 1778620083166.3909,
+        "uuid": "1afe003f-3be4-4e24-b7d2-ffbe8cc24543"
+      },
+      "chunkId": "b8d9e84b1a7106e0e3b29c45bec1dd5dd65f4cc3",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveText.ts": {
+      "mTimestamp": {
+        "mtime": 1778620573784.6567,
+        "uuid": "cea1b300-b519-4e2b-bda1-d9c3c99006a9"
+      },
+      "chunkId": "627655bf3015657c4159d484b782274926929688",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 70
+            },
+            "end": {
+              "line": 1,
+              "column": 74
             }
           }
         }
