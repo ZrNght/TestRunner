@@ -2582,11 +2582,18 @@
     "value": {
       "depends": [
         "dbe7a603-7b66-46cd-b00c-a07a05ca2f5a@f9941",
+        "d9f5e2bb-286c-4a0c-8019-ec5164b42da7@f9941",
+        "0db65c2e-4d94-43de-a4eb-25db54bb364d@f9941",
+        "fb67626b-912d-4bd4-8d3a-f6489ddb07cc@f9941",
+        "0b68db2c-f81f-4e58-9ebe-572316f7e724@f9941",
+        "d3faa3fe-bba9-4044-8ef8-31b851147a07@f9941",
+        "6c54d9a0-4112-4516-935e-44a853508587@f9941",
         "ec5b8674-ade8-438d-96ba-62ea8e5e2e06",
         "de183333-cf34-42e5-9615-fcc34bc0192a"
       ],
       "dependScripts": [
         "a05f193f-c8d5-4b3e-a0be-b512802962b6",
+        "c49a6f9c-32c3-4714-bc77-8219f2eded59",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "771ed1d6-a6f2-4d2c-8f72-9ef50a2b21c2"
       ]
