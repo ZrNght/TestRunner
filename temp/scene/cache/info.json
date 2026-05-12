@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz",
+        "version": "Windows 11 Home"
+    },
+    "sceneListMap": {
+        "4b370b55-dcc3-485e-8b9f-4279dd8ea429": "C:\\Users\\Пользователь\\TestRunner\\assets\\scene.scene"
+    },
+    "deviceMd5": "eb48f26b3e5c52718393a9457f28bf16"
+}

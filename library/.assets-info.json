@@ -1,0 +1,573 @@
+{
+  "version": "1.0.1",
+  "map": {
+    "ENEMY.meta": {
+      "time": 1777370839030.3245
+    },
+    "OBJECTS.meta": {
+      "time": 1777370839030.3245
+    },
+    "PLAYER.meta": {
+      "time": 1775153907066.532
+    },
+    "PREFABS.meta": {
+      "time": 1777370839031.3271
+    },
+    "SCRIPTS.meta": {
+      "time": 1777370839032.326
+    },
+    "OBJECTS\\Environment.meta": {
+      "time": 1776453078970.3423
+    },
+    "SCRIPTS\\BGLoop.ts.meta": {
+      "time": 1776451671552.987
+    },
+    "SCRIPTS\\EnvironmentLoop.ts.meta": {
+      "time": 1776454000479.5693
+    },
+    "SCRIPTS\\GameManager.ts.meta": {
+      "time": 1777403202612.4177
+    },
+    "SCRIPTS\\PlayerController.ts.meta": {
+      "time": 1777403420764.7927
+    },
+    "ENEMY": {
+      "time": 1778614675264.1892,
+      "uuid": "8a8c2217-13eb-4c7f-8034-3958793e3888"
+    },
+    "OBJECTS": {
+      "time": 1778614675462.7627,
+      "uuid": "f7ff4cbb-7cda-4343-afef-8edb84566b83"
+    },
+    "PLAYER": {
+      "time": 1778616394643.1594,
+      "uuid": "65706c8c-276f-4ffa-b890-e1f72c1906ef"
+    },
+    "PREFABS": {
+      "time": 1778616300673.879,
+      "uuid": "b542261b-6997-4604-b63d-d63477fc6825"
+    },
+    "SCRIPTS": {
+      "time": 1778614676082.7617,
+      "uuid": "a0756d18-9f72-4bd7-83c6-a73a9554950e"
+    },
+    "OBJECTS\\Environment": {
+      "time": 1778614675507.918,
+      "uuid": "af16467a-7b63-43b2-a091-736e04d1882e"
+    },
+    "SCRIPTS\\BGLoop.ts": {
+      "time": 1776452992465.1697,
+      "uuid": "a05f193f-c8d5-4b3e-a0be-b512802962b6"
+    },
+    "SCRIPTS\\EnvironmentLoop.ts": {
+      "time": 1776454033386.521,
+      "uuid": "c49a6f9c-32c3-4714-bc77-8219f2eded59"
+    },
+    "SCRIPTS\\GameManager.ts": {
+      "time": 1777583012956.479,
+      "uuid": "771ed1d6-a6f2-4d2c-8f72-9ef50a2b21c2"
+    },
+    "SCRIPTS\\PlayerController.ts": {
+      "time": 1777574420801.1616,
+      "uuid": "c97d774f-1e88-45a6-a426-eb0875a45684"
+    },
+    "ENEMY\\0.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\10.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\11.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\12.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\13.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\15.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\16.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\17.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\18.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\19.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\2.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\7.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\9.png.meta": {
+      "time": 1776511722000
+    },
+    "ENEMY\\Enemy_run.anim.meta": {
+      "time": 1776511722000
+    },
+    "OBJECTS\\back.png.meta": {
+      "time": 1776451177029.649
+    },
+    "OBJECTS\\cash.png.meta": {
+      "time": 1776511722000
+    },
+    "OBJECTS\\paypal.webp.meta": {
+      "time": 1776511722000
+    },
+    "PLAYER\\0.png.meta": {
+      "time": 1775153907085.048
+    },
+    "PLAYER\\1.png.meta": {
+      "time": 1775153907099.8608
+    },
+    "PLAYER\\10.png.meta": {
+      "time": 1775153907115.4937
+    },
+    "PLAYER\\11.png.meta": {
+      "time": 1775153907130.2773
+    },
+    "PLAYER\\12.png.meta": {
+      "time": 1775153907148.3225
+    },
+    "PLAYER\\13.png.meta": {
+      "time": 1775153907176.512
+    },
+    "PLAYER\\14.png.meta": {
+      "time": 1775153907201.235
+    },
+    "PLAYER\\15.png.meta": {
+      "time": 1775153907225.132
+    },
+    "PLAYER\\16.png.meta": {
+      "time": 1775153907248.0972
+    },
+    "PLAYER\\17.png.meta": {
+      "time": 1775153907271.1128
+    },
+    "PLAYER\\18.png.meta": {
+      "time": 1775153907292.4807
+    },
+    "PLAYER\\19.png.meta": {
+      "time": 1775153907315.6758
+    },
+    "PLAYER\\2.png.meta": {
+      "time": 1775153907339.3064
+    },
+    "PLAYER\\20.png.meta": {
+      "time": 1775153907365.072
+    },
+    "PLAYER\\21.png.meta": {
+      "time": 1775153907385.113
+    },
+    "PLAYER\\22.png.meta": {
+      "time": 1775153907409.6743
+    },
+    "PLAYER\\23.png.meta": {
+      "time": 1775153907433.2385
+    },
+    "PLAYER\\24.png.meta": {
+      "time": 1775153907450.3892
+    },
+    "PLAYER\\25.png.meta": {
+      "time": 1775153907468.884
+    },
+    "PLAYER\\26.png.meta": {
+      "time": 1775153907485.7346
+    },
+    "PLAYER\\27.png.meta": {
+      "time": 1775153907501.7112
+    },
+    "PLAYER\\28.png.meta": {
+      "time": 1775153907516.2463
+    },
+    "PLAYER\\29.png.meta": {
+      "time": 1775153907533.3325
+    },
+    "PLAYER\\3.png.meta": {
+      "time": 1775153907548.0374
+    },
+    "PLAYER\\30.png.meta": {
+      "time": 1775153907564.0554
+    },
+    "PLAYER\\31.png.meta": {
+      "time": 1775153907582.2798
+    },
+    "PLAYER\\32.png.meta": {
+      "time": 1775153907598.1863
+    },
+    "PLAYER\\33.png.meta": {
+      "time": 1775153907614.5547
+    },
+    "PLAYER\\34.png.meta": {
+      "time": 1775153907631.932
+    },
+    "PLAYER\\35.png.meta": {
+      "time": 1775153907646.9717
+    },
+    "PLAYER\\36.png.meta": {
+      "time": 1775153907663.988
+    },
+    "PLAYER\\37.png.meta": {
+      "time": 1775153907679.9934
+    },
+    "PLAYER\\38.png.meta": {
+      "time": 1775153907697.417
+    },
+    "PLAYER\\4.png.meta": {
+      "time": 1775153907712.9329
+    },
+    "PLAYER\\5.png.meta": {
+      "time": 1775153907732.4277
+    },
+    "PLAYER\\6.png.meta": {
+      "time": 1775153907750.1367
+    },
+    "PLAYER\\7.png.meta": {
+      "time": 1775153907767.7104
+    },
+    "PLAYER\\8.png.meta": {
+      "time": 1775153907784.2317
+    },
+    "PLAYER\\9.png.meta": {
+      "time": 1775153907803.2822
+    },
+    "PLAYER\\Char_Hit.anim.meta": {
+      "time": 1776524868000
+    },
+    "PLAYER\\Char_Idle.anim.meta": {
+      "time": 1776524868000
+    },
+    "PLAYER\\Char_Jump.anim.meta": {
+      "time": 1776524868000
+    },
+    "PLAYER\\Char_Run.anim.meta": {
+      "time": 1776524868000
+    },
+    "PREFABS\\cash.prefab.meta": {
+      "time": 1776511722000
+    },
+    "PREFABS\\paypal.prefab.meta": {
+      "time": 1776511722000
+    },
+    "PREFABS\\Player.prefab.meta": {
+      "time": 1777573723317.0208
+    },
+    "OBJECTS\\Environment\\bush.png.meta": {
+      "time": 1776453084317.09
+    },
+    "OBJECTS\\Environment\\bush1.png.meta": {
+      "time": 1776453084268.9177
+    },
+    "OBJECTS\\Environment\\bush2.png.meta": {
+      "time": 1776453084413.877
+    },
+    "OBJECTS\\Environment\\lamp.png.meta": {
+      "time": 1776453084460.8162
+    },
+    "OBJECTS\\Environment\\tree.png.meta": {
+      "time": 1776453084440.8127
+    },
+    "OBJECTS\\Environment\\tree1.png.meta": {
+      "time": 1776453084292.465
+    },
+    "ENEMY\\11.png": {
+      "time": 1776511722000,
+      "uuid": "1034f4ec-7c85-407a-83f7-53a1962627b7"
+    },
+    "ENEMY\\10.png": {
+      "time": 1776511722000,
+      "uuid": "328533c4-f693-4159-b617-a121f7b84332"
+    },
+    "ENEMY\\0.png": {
+      "time": 1776511722000,
+      "uuid": "0c445a2a-f67a-4391-ade2-cb1706337f5f"
+    },
+    "ENEMY\\12.png": {
+      "time": 1776511722000,
+      "uuid": "2900d00d-f90c-46d0-a77a-28f065662ed5"
+    },
+    "ENEMY\\13.png": {
+      "time": 1776511722000,
+      "uuid": "8055f8e9-a332-47d6-aeda-8315e40a4bc0"
+    },
+    "ENEMY\\15.png": {
+      "time": 1776511722000,
+      "uuid": "849c1b3c-162d-43ac-9102-c71025ff8607"
+    },
+    "ENEMY\\16.png": {
+      "time": 1776511722000,
+      "uuid": "d750d666-f120-48be-acda-f9d66fd9c599"
+    },
+    "ENEMY\\17.png": {
+      "time": 1776511722000,
+      "uuid": "5a97ab17-c77f-45de-923b-3b1848c83f32"
+    },
+    "ENEMY\\18.png": {
+      "time": 1776511722000,
+      "uuid": "67e2d94d-a1e4-49a4-995c-eb7313b8a939"
+    },
+    "ENEMY\\19.png": {
+      "time": 1776511722000,
+      "uuid": "ef6f6aa3-3c31-45f9-8b98-d80097ad514d"
+    },
+    "ENEMY\\Enemy_run.anim": {
+      "time": 1778616742015.6853,
+      "uuid": "f1e295dd-fbaa-4884-b166-8bda63a40594"
+    },
+    "ENEMY\\2.png": {
+      "time": 1776511722000,
+      "uuid": "9979ffdd-25bb-41b4-904d-531c17fed2cd"
+    },
+    "ENEMY\\7.png": {
+      "time": 1776511722000,
+      "uuid": "6c5d82b9-f588-443b-9c83-59de4b585506"
+    },
+    "ENEMY\\9.png": {
+      "time": 1776511722000,
+      "uuid": "0e8eca91-56eb-462b-a90b-6def9f7dedbc"
+    },
+    "OBJECTS\\cash.png": {
+      "time": 1776511722000,
+      "uuid": "7886cdc5-5b9d-40d4-a364-5da0526b876c"
+    },
+    "OBJECTS\\back.png": {
+      "time": 1774982887732.632,
+      "uuid": "dbe7a603-7b66-46cd-b00c-a07a05ca2f5a"
+    },
+    "PLAYER\\0.png": {
+      "time": 1775153907078.044,
+      "uuid": "683e48e1-b4ca-4d4e-9a4f-727f619ce7ab"
+    },
+    "OBJECTS\\paypal.webp": {
+      "time": 1776511722000,
+      "uuid": "fc63b424-5679-4bd1-bc95-7c4bda4033af"
+    },
+    "PLAYER\\1.png": {
+      "time": 1775153907093.3296,
+      "uuid": "1182dddf-29d1-4bcd-8da1-64b155dc427e"
+    },
+    "PLAYER\\10.png": {
+      "time": 1775153907108.3743,
+      "uuid": "e9aeab82-bbb8-4753-834c-0cd13c0ac71a"
+    },
+    "PLAYER\\11.png": {
+      "time": 1775153907123.5305,
+      "uuid": "4fcd24f6-5d2b-4ffd-8085-937e21b3877c"
+    },
+    "PLAYER\\12.png": {
+      "time": 1775153907138.8044,
+      "uuid": "ad22492d-95a1-4d66-af68-a5b79f415231"
+    },
+    "PLAYER\\13.png": {
+      "time": 1775153907166.4565,
+      "uuid": "2fed5050-57c5-4b84-b12f-f58a7623b822"
+    },
+    "PLAYER\\14.png": {
+      "time": 1775153907190.9673,
+      "uuid": "5de505ad-8d2d-443b-a7c3-fbd8fd8bb250"
+    },
+    "PLAYER\\15.png": {
+      "time": 1775153907213.388,
+      "uuid": "38d1c87f-bd4e-4836-aacd-bea7fa76d58e"
+    },
+    "PLAYER\\16.png": {
+      "time": 1775153907238.1108,
+      "uuid": "34c5e9f6-40e7-47f6-8112-b9e7a4db380a"
+    },
+    "PLAYER\\17.png": {
+      "time": 1775153907261.852,
+      "uuid": "68d9cc4d-ce7f-4a38-87ed-335f6d2c8e8a"
+    },
+    "PLAYER\\18.png": {
+      "time": 1775153907283.1707,
+      "uuid": "c9f10977-b8a9-4af8-b9be-1628c7201910"
+    },
+    "PLAYER\\19.png": {
+      "time": 1775153907304.9197,
+      "uuid": "7683144e-1ebc-499c-9555-59d68351f66f"
+    },
+    "PLAYER\\2.png": {
+      "time": 1775153907329.289,
+      "uuid": "b04647a5-0d77-4808-a933-13829ef78243"
+    },
+    "PLAYER\\20.png": {
+      "time": 1775153907353.0222,
+      "uuid": "134310a9-3389-4736-a27b-52ef67329553"
+    },
+    "PLAYER\\21.png": {
+      "time": 1775153907377.114,
+      "uuid": "1c4c94c6-b12c-4128-895e-ff0cbdd018f4"
+    },
+    "PLAYER\\22.png": {
+      "time": 1775153907399.1384,
+      "uuid": "f56295f9-f13b-492c-b46f-45a7e161c483"
+    },
+    "PLAYER\\23.png": {
+      "time": 1775153907422.7107,
+      "uuid": "0f7f8982-a958-4498-9abc-73d8bbf10b23"
+    },
+    "PLAYER\\24.png": {
+      "time": 1775153907443.2832,
+      "uuid": "081318e7-7cf1-4ed3-b41f-847a862b096f"
+    },
+    "PLAYER\\26.png": {
+      "time": 1775153907477.3877,
+      "uuid": "b72b9f92-8da8-42f5-ba18-1dee81d18242"
+    },
+    "PLAYER\\25.png": {
+      "time": 1775153907460.3662,
+      "uuid": "c578e3e5-28d8-47ce-9e6f-b1d3e25c1f9b"
+    },
+    "PLAYER\\27.png": {
+      "time": 1775153907494.1995,
+      "uuid": "0ed0a9fe-2c74-4e4e-9155-c0ad78bc4786"
+    },
+    "PLAYER\\28.png": {
+      "time": 1775153907510.2595,
+      "uuid": "5ddc2cae-56a3-499f-97a1-c8339ec2cb3c"
+    },
+    "PLAYER\\3.png": {
+      "time": 1775153907540.8452,
+      "uuid": "d93d252b-8eb5-4a80-b370-248661eb0fe9"
+    },
+    "PLAYER\\29.png": {
+      "time": 1775153907526.1375,
+      "uuid": "44412eb3-b895-4e41-a045-bf59597084c8"
+    },
+    "PLAYER\\30.png": {
+      "time": 1775153907557.059,
+      "uuid": "1bc7776d-9e02-47b7-8ad5-402de4185833"
+    },
+    "PLAYER\\31.png": {
+      "time": 1775153907574.1099,
+      "uuid": "f9164b3c-b45a-41c9-870a-70460e654fe2"
+    },
+    "PLAYER\\32.png": {
+      "time": 1775153907590.9004,
+      "uuid": "0af18d6c-daa2-490f-96b0-117a2a58c48b"
+    },
+    "PLAYER\\33.png": {
+      "time": 1775153907607.5557,
+      "uuid": "045ef62b-9825-4fe4-9fba-76fb0686f349"
+    },
+    "PLAYER\\35.png": {
+      "time": 1775153907640.4534,
+      "uuid": "e930b9d5-77fb-44ea-8f0e-e66785d27fc9"
+    },
+    "PLAYER\\34.png": {
+      "time": 1775153907623.5918,
+      "uuid": "6c8d7c21-6373-45e7-b23a-692fec65f2be"
+    },
+    "PLAYER\\36.png": {
+      "time": 1775153907655.9832,
+      "uuid": "7da8e900-4ff8-48c6-a930-dd57c1e19b62"
+    },
+    "PLAYER\\37.png": {
+      "time": 1775153907672.4827,
+      "uuid": "97169c53-52a8-432f-a246-1bbbb56a929f"
+    },
+    "PLAYER\\38.png": {
+      "time": 1775153907688.747,
+      "uuid": "81746deb-167b-4c30-b092-bcea86d86fb2"
+    },
+    "PLAYER\\4.png": {
+      "time": 1775153907704.4182,
+      "uuid": "6a73def9-4f01-486c-ba60-bb36ffaf25ce"
+    },
+    "PLAYER\\5.png": {
+      "time": 1775153907722.9104,
+      "uuid": "4ec50360-f75f-4462-98a5-54730aca54d7"
+    },
+    "PLAYER\\6.png": {
+      "time": 1775153907740.9397,
+      "uuid": "e6ef1eaa-072a-406f-a20b-5bfcd96f6dfc"
+    },
+    "PLAYER\\Char_Hit.anim": {
+      "time": 1776524868000,
+      "uuid": "10f92581-a91f-4c5b-8849-070a9471e33d"
+    },
+    "PLAYER\\Char_Idle.anim": {
+      "time": 1778615315859.1194,
+      "uuid": "b09181b9-5715-4eb9-9db5-5e01ce141672"
+    },
+    "PLAYER\\7.png": {
+      "time": 1775153907760.2046,
+      "uuid": "680bd480-afa6-4842-b523-079f9690e293"
+    },
+    "PLAYER\\8.png": {
+      "time": 1775153907777.2363,
+      "uuid": "81f4c7a8-3593-45d5-b1c7-e1ea0881692a"
+    },
+    "PLAYER\\Char_Jump.anim": {
+      "time": 1776524868000,
+      "uuid": "a3c4a091-a3c0-45fd-a61d-7dec69bc720f"
+    },
+    "PLAYER\\9.png": {
+      "time": 1775153907796.2717,
+      "uuid": "b9d7ce37-d8a2-4e4d-aa84-b83dbca36285"
+    },
+    "PLAYER\\Char_Run.anim": {
+      "time": 1776524868000,
+      "uuid": "58772bc7-2392-45eb-9952-cc02f8163bc8"
+    },
+    "PREFABS\\cash.prefab": {
+      "time": 1776533731354.5415,
+      "uuid": "646ca225-5193-427b-a8cd-f9d6bc064e00"
+    },
+    "PREFABS\\paypal.prefab": {
+      "time": 1776533720894.2136,
+      "uuid": "f85ece44-209f-438c-bf3c-8c444292b13d"
+    },
+    "PREFABS\\Player.prefab": {
+      "time": 1778615321341.6414,
+      "uuid": "ec5b8674-ade8-438d-96ba-62ea8e5e2e06"
+    },
+    "OBJECTS\\Environment\\bush.png": {
+      "time": 1774982965840.8892,
+      "uuid": "6c54d9a0-4112-4516-935e-44a853508587"
+    },
+    "OBJECTS\\Environment\\bush1.png": {
+      "time": 1774982977119.3894,
+      "uuid": "0b68db2c-f81f-4e58-9ebe-572316f7e724"
+    },
+    "OBJECTS\\Environment\\bush2.png": {
+      "time": 1774982987482.3687,
+      "uuid": "d3faa3fe-bba9-4044-8ef8-31b851147a07"
+    },
+    "OBJECTS\\Environment\\lamp.png": {
+      "time": 1774982926911.9807,
+      "uuid": "fb67626b-912d-4bd4-8d3a-f6489ddb07cc"
+    },
+    "OBJECTS\\Environment\\tree.png": {
+      "time": 1774982897961.9563,
+      "uuid": "d9f5e2bb-286c-4a0c-8019-ec5164b42da7"
+    },
+    "OBJECTS\\Environment\\tree1.png": {
+      "time": 1774982910109.204,
+      "uuid": "0db65c2e-4d94-43de-a4eb-25db54bb364d"
+    },
+    "scene.scene.meta": {
+      "time": 1778614818812.6853
+    },
+    "scene.scene": {
+      "time": 1778616805807.6646,
+      "uuid": "4b370b55-dcc3-485e-8b9f-4279dd8ea429"
+    },
+    "PREFABS\\Enemy.prefab.meta": {
+      "time": 1778616300685.5483
+    },
+    "PREFABS\\Enemy.prefab": {
+      "time": 1778616746095.8105,
+      "uuid": "de183333-cf34-42e5-9615-fcc34bc0192a"
+    }
+  },
+  "missing": {}
+}
