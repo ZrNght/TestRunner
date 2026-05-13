@@ -48,7 +48,7 @@
       "uuid": "b542261b-6997-4604-b63d-d63477fc6825"
     },
     "SCRIPTS": {
-      "time": 1778708439985.1394,
+      "time": 1778710774568.2622,
       "uuid": "a0756d18-9f72-4bd7-83c6-a73a9554950e"
     },
     "OBJECTS\\Environment": {
@@ -519,11 +519,11 @@
       "uuid": "58772bc7-2392-45eb-9952-cc02f8163bc8"
     },
     "PREFABS\\cash.prefab": {
-      "time": 1776533731354.5415,
+      "time": 1778711347181.2683,
       "uuid": "646ca225-5193-427b-a8cd-f9d6bc064e00"
     },
     "PREFABS\\paypal.prefab": {
-      "time": 1776533720894.2136,
+      "time": 1778711370397.3655,
       "uuid": "f85ece44-209f-438c-bf3c-8c444292b13d"
     },
     "PREFABS\\Player.prefab": {
@@ -558,7 +558,7 @@
       "time": 1778614818812.6853
     },
     "scene.scene": {
-      "time": 1778708693182.5032,
+      "time": 1778711493334.9155,
       "uuid": "4b370b55-dcc3-485e-8b9f-4279dd8ea429"
     },
     "PREFABS\\Enemy.prefab.meta": {
@@ -649,7 +649,7 @@
       "time": 1778698656530.474
     },
     "PREFABS\\Enemy-001.prefab": {
-      "time": 1778706728472.1294,
+      "time": 1778710891161.1902,
       "uuid": "17dee291-0e11-4fbb-83de-5624baaa7c60"
     },
     "OBJECTS\\pink.png.meta": {
@@ -705,7 +705,7 @@
       "time": 1778702248203.7676
     },
     "SCRIPTS\\PlayerHitbox.ts": {
-      "time": 1778706882349.5522,
+      "time": 1778709571168.397,
       "uuid": "6dc3d99f-1f9c-458b-91af-886ef3316b83"
     },
     "SCRIPTS\\PulseEffect.ts.meta": {
@@ -742,6 +742,27 @@
     "SCRIPTS\\ResponsWidget.ts": {
       "time": 1778708606885.0703,
       "uuid": "042f4a3e-61a0-4f6b-8c18-ee95b227c67c"
+    },
+    "SCRIPTS\\HealthManager.ts.meta": {
+      "time": 1778709500893.3901
+    },
+    "SCRIPTS\\HealthManager.ts": {
+      "time": 1778709512544.0825,
+      "uuid": "c0cf8e01-2ece-4d1e-9208-3c767de43c06"
+    },
+    "SCRIPTS\\CashSpawner.ts.meta": {
+      "time": 1778710176577.3408
+    },
+    "SCRIPTS\\CashSpawner.ts": {
+      "time": 1778711262593.6992,
+      "uuid": "3bde39ec-a44f-47fa-8666-3df87c384d7b"
+    },
+    "SCRIPTS\\CashController.ts.meta": {
+      "time": 1778710774576.305
+    },
+    "SCRIPTS\\CashController.ts": {
+      "time": 1778710784804.049,
+      "uuid": "42871ded-9bcf-4e06-9a64-8990355d8187"
     }
   },
   "missing": {}

@@ -1,4 +1,5 @@
 import { _decorator, Component, Collider2D, Contact2DType, IPhysics2DContact, Animation, Sprite, Color, tween, UIOpacity } from 'cc';
+import { HealthManager } from './HealthManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('PlayerHitbox')
@@ -6,6 +7,9 @@ export class PlayerHitbox extends Component {
 
     @property
     public invincibilityDuration: number = 2.0;
+
+    @property({ type: HealthManager })
+    public healthManager: HealthManager | null = null;
 
     private isInvincible: boolean = false;
     private playerAnimation: Animation | null = null;
@@ -33,6 +37,10 @@ export class PlayerHitbox extends Component {
 
     private takeDamage() {
         this.isInvincible = true;
+
+        if (this.healthManager) {
+            this.healthManager.loseHeart();
+        }
 
         if (this.playerAnimation) {
             this.playerAnimation.play('Char_Hit');

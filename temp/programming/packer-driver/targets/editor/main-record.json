@@ -997,7 +997,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2031181.9534,
+      "mTimestamp": 4686989.5246,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1099,7 +1099,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/EnemyController.ts",
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/CashController.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -1108,189 +1108,231 @@
             },
             "end": {
               "line": 5,
-              "column": 1257
+              "column": 1256
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/CashSpawner.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1272
+            },
+            "end": {
+              "line": 5,
+              "column": 1404
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/EnemyController.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1420
+            },
+            "end": {
+              "line": 5,
+              "column": 1556
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/EnemySpawner.ts",
-          "resolved": "__unresolved_8",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1273
+              "column": 1572
             },
             "end": {
               "line": 5,
-              "column": 1406
+              "column": 1705
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/EnvironmentLoop.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1422
+              "column": 1721
             },
             "end": {
               "line": 5,
-              "column": 1558
+              "column": 1857
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/GameManager.ts",
-          "resolved": "__unresolved_10",
+          "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1574
+              "column": 1873
             },
             "end": {
               "line": 5,
-              "column": 1706
+              "column": 2005
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/GameStart.ts",
-          "resolved": "__unresolved_11",
+          "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1722
+              "column": 2021
             },
             "end": {
               "line": 5,
-              "column": 1852
+              "column": 2151
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/HealthManager.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2167
+            },
+            "end": {
+              "line": 5,
+              "column": 2301
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/KonusSpawner.ts",
-          "resolved": "__unresolved_12",
+          "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1868
+              "column": 2317
             },
             "end": {
               "line": 5,
-              "column": 2001
+              "column": 2450
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/PlayerController.ts",
-          "resolved": "__unresolved_13",
+          "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2017
+              "column": 2466
             },
             "end": {
               "line": 5,
-              "column": 2154
+              "column": 2603
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/PlayerHitbox.ts",
-          "resolved": "__unresolved_14",
+          "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2170
+              "column": 2619
             },
             "end": {
               "line": 5,
-              "column": 2303
+              "column": 2752
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/Pulse.ts",
-          "resolved": "__unresolved_15",
+          "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2319
+              "column": 2768
             },
             "end": {
               "line": 5,
-              "column": 2445
+              "column": 2894
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/PulseEffect.ts",
-          "resolved": "__unresolved_16",
+          "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2461
+              "column": 2910
             },
             "end": {
               "line": 5,
-              "column": 2593
+              "column": 3042
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsSize.ts",
-          "resolved": "__unresolved_17",
+          "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2609
+              "column": 3058
             },
             "end": {
               "line": 5,
-              "column": 2741
+              "column": 3190
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsWidget.ts",
-          "resolved": "__unresolved_18",
+          "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2757
+              "column": 3206
             },
             "end": {
               "line": 5,
-              "column": 2891
+              "column": 3340
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveCursor.ts",
-          "resolved": "__unresolved_19",
+          "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2907
+              "column": 3356
             },
             "end": {
               "line": 5,
-              "column": 3044
+              "column": 3493
             }
           }
         },
         {
           "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveText.ts",
-          "resolved": "__unresolved_20",
+          "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3060
+              "column": 3509
             },
             "end": {
               "line": 5,
-              "column": 3195
+              "column": 3644
             }
           }
         }
@@ -1349,6 +1391,20 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/CashController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/CashSpawner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/EnemyController.ts"
           },
           "messages": []
@@ -1378,6 +1434,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/GameStart.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/HealthManager.ts"
           },
           "messages": []
         },
@@ -2569,11 +2632,15 @@
     },
     "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/PlayerHitbox.ts": {
       "mTimestamp": {
-        "mtime": 1778706882349.5522,
+        "mtime": 1778709571168.397,
         "uuid": "6dc3d99f-1f9c-458b-91af-886ef3316b83"
       },
       "chunkId": "91ef4e3f90c170cb6fb635d66428cb9a0d8ff0ac",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -2592,6 +2659,20 @@
               "column": 132
             }
           }
+        },
+        {
+          "value": "./HealthManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
         }
       ],
       "type": "esm",
@@ -2599,7 +2680,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -2614,6 +2695,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/HealthManager.ts"
           },
           "messages": []
         }
@@ -2798,6 +2893,162 @@
             "end": {
               "line": 1,
               "column": 62
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/HealthManager.ts": {
+      "mTimestamp": {
+        "mtime": 1778709512544.0825,
+        "uuid": "c0cf8e01-2ece-4d1e-9208-3c767de43c06"
+      },
+      "chunkId": "9ebdef826faada67d99722668b9d6ed884dbddc1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 55
+            },
+            "end": {
+              "line": 1,
+              "column": 59
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/CashSpawner.ts": {
+      "mTimestamp": {
+        "mtime": 1778711262593.6992,
+        "uuid": "3bde39ec-a44f-47fa-8666-3df87c384d7b"
+      },
+      "chunkId": "03749a55a180bcb7ce3e9fcd260fa8c6ee1dafa8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/CashController.ts": {
+      "mTimestamp": {
+        "mtime": 1778710784804.049,
+        "uuid": "42871ded-9bcf-4e06-9a64-8990355d8187"
+      },
+      "chunkId": "20db043b8b598d9ca7777dce936c2a1f4569e04f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
             }
           }
         }

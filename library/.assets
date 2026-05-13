@@ -107,7 +107,10 @@
             "OBJECTS\\Environment\\tree.png",
             "OBJECTS\\Environment\\tree1.png",
             "SCRIPTS\\ResponsSize.ts",
-            "SCRIPTS\\ResponsWidget.ts"
+            "SCRIPTS\\ResponsWidget.ts",
+            "SCRIPTS\\HealthManager.ts",
+            "SCRIPTS\\CashSpawner.ts",
+            "SCRIPTS\\CashController.ts"
         ]
     }
 }
