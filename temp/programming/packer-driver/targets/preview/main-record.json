@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 13193.3717,
+      "mTimestamp": 6397.7368,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -514,7 +514,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 8197342.7452,
+      "mTimestamp": 2031288.9109,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -756,7 +756,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveCursor.ts",
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsSize.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -765,12 +765,12 @@
             },
             "end": {
               "line": 21,
-              "column": 144
+              "column": 139
             }
           }
         },
         {
-          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveText.ts",
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsWidget.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -779,6 +779,34 @@
             },
             "end": {
               "line": 22,
+              "column": 141
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveCursor.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 7
+            },
+            "end": {
+              "line": 23,
+              "column": 144
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsiveText.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
               "column": 142
             }
           }
@@ -902,6 +930,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/PulseEffect.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsSize.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsWidget.ts"
           },
           "messages": []
         },
@@ -1484,7 +1526,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1778696565817,
+      "mTimestamp": 1778706577009,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2044,7 +2086,7 @@
     },
     "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/PlayerHitbox.ts": {
       "mTimestamp": {
-        "mtime": 1778702260256.932,
+        "mtime": 1778706882349.5522,
         "uuid": "6dc3d99f-1f9c-458b-91af-886ef3316b83"
       },
       "chunkId": "91ef4e3f90c170cb6fb635d66428cb9a0d8ff0ac",
@@ -2060,11 +2102,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 84
+              "column": 128
             },
             "end": {
               "line": 1,
-              "column": 88
+              "column": 132
             }
           }
         }
@@ -2169,6 +2211,110 @@
             "end": {
               "line": 1,
               "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsSize.ts": {
+      "mTimestamp": {
+        "mtime": 1778707629606.8367,
+        "uuid": "4a5a404f-8e25-4d87-b0e7-da225b4ded6d"
+      },
+      "chunkId": "fe1ccd84ed40623bb9adf780fd923f4f757156f2",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C/TestRunner/assets/SCRIPTS/ResponsWidget.ts": {
+      "mTimestamp": {
+        "mtime": 1778708606885.0703,
+        "uuid": "042f4a3e-61a0-4f6b-8c18-ee95b227c67c"
+      },
+      "chunkId": "7084725a25cc883e2f70ea5403b2857f672c0a67",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
             }
           }
         }

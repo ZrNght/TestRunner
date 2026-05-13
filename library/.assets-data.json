@@ -2071,7 +2071,8 @@
         "10f92581-a91f-4c5b-8849-070a9471e33d"
       ],
       "dependScripts": [
-        "c97d774f-1e88-45a6-a426-eb0875a45684"
+        "c97d774f-1e88-45a6-a426-eb0875a45684",
+        "6dc3d99f-1f9c-458b-91af-886ef3316b83"
       ]
     },
     "versionCode": 2
@@ -2591,8 +2592,11 @@
         "4f46e7dd-825a-46fc-9304-6b0cfba9884c@f9941",
         "2c10f102-f20f-43cc-ad3e-2b627b2ecf30",
         "17dee291-0e11-4fbb-83de-5624baaa7c60",
+        "45e7e9c8-617c-4ed1-9663-06beeb785254",
         "ec5b8674-ade8-438d-96ba-62ea8e5e2e06",
-        "45e7e9c8-617c-4ed1-9663-06beeb785254"
+        "25f04a82-c85e-4e0f-90ff-bfc3d2025c38@f9941",
+        "981b0141-de37-4fe6-a328-5d22e00a4e90@f9941",
+        "48c0efc0-fd7d-4a18-96a3-42f8453d90aa@f9941"
       ],
       "dependScripts": [
         "a05f193f-c8d5-4b3e-a0be-b512802962b6",
@@ -2603,9 +2607,11 @@
         "cea1b300-b519-4e2b-bda1-d9c3c99006a9",
         "6f981f09-6667-4f40-b017-afef547d5d98",
         "6d86f41d-5463-4281-86ca-604e8eb7c08e",
-        "6dc3d99f-1f9c-458b-91af-886ef3316b83",
+        "fe380672-02de-49a5-8824-2af4be56525d",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "fe380672-02de-49a5-8824-2af4be56525d"
+        "4a5a404f-8e25-4d87-b0e7-da225b4ded6d",
+        "3e3f3488-2863-4003-a758-88135322053a",
+        "042f4a3e-61a0-4f6b-8c18-ee95b227c67c"
       ]
     },
     "versionCode": 2
@@ -2979,6 +2985,16 @@
   },
   "fe380672-02de-49a5-8824-2af4be56525d": {
     "url": "db://assets/SCRIPTS/KonusSpawner.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4a5a404f-8e25-4d87-b0e7-da225b4ded6d": {
+    "url": "db://assets/SCRIPTS/ResponsSize.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "042f4a3e-61a0-4f6b-8c18-ee95b227c67c": {
+    "url": "db://assets/SCRIPTS/ResponsWidget.ts",
     "value": {},
     "versionCode": 1
   }
