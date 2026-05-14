@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, UIOpacity, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, HealthManager;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, UIOpacity, director, Vec3, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, HealthManager;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -18,13 +18,15 @@ System.register(["cc"], function (_export, _context) {
       Component = _cc.Component;
       Node = _cc.Node;
       UIOpacity = _cc.UIOpacity;
+      director = _cc.director;
+      Vec3 = _cc.Vec3;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "c0cf84BLs5NHpIIPHZ95DwG", "HealthManager", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'UIOpacity']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'UIOpacity', 'director', 'Vec3']);
 
       ({
         ccclass,
@@ -33,30 +35,99 @@ System.register(["cc"], function (_export, _context) {
 
       _export("HealthManager", HealthManager = (_dec = ccclass('HealthManager'), _dec2 = property({
         type: [Node]
+      }), _dec3 = property({
+        type: Node
+      }), _dec4 = property({
+        type: Node
       }), _dec(_class = (_class2 = class HealthManager extends Component {
         constructor() {
           super(...arguments);
 
           _initializerDefineProperty(this, "hearts", _descriptor, this);
 
+          _initializerDefineProperty(this, "failOverlay", _descriptor2, this);
+
+          _initializerDefineProperty(this, "failSprite", _descriptor3, this);
+
           this.currentHealth = 0;
         }
 
         start() {
           this.currentHealth = this.hearts.length;
+          if (this.failOverlay) this.failOverlay.active = false;
+          if (this.failSprite) this.failSprite.active = false;
         }
 
         loseHeart() {
           if (this.currentHealth > 0) {
             this.currentHealth--;
             var targetHeart = this.hearts[this.currentHealth];
-            var uiOpacity = targetHeart.getComponent(UIOpacity);
+            var uiOpacity = targetHeart.getComponent(UIOpacity) || targetHeart.addComponent(UIOpacity);
+            uiOpacity.opacity = 100;
 
-            if (!uiOpacity) {
-              uiOpacity = targetHeart.addComponent(UIOpacity);
+            if (this.currentHealth <= 0) {
+              this.gameOver();
+            }
+          }
+        }
+
+        gameOver() {
+          director.pause();
+          setTimeout(() => {
+            this.showFailScreen();
+          }, 500);
+        }
+
+        showFailScreen() {
+          // Сначала показываем черный экран
+          if (this.failOverlay) {
+            this.failOverlay.active = true;
+
+            if (this.failOverlay.parent) {
+              this.failOverlay.setSiblingIndex(this.failOverlay.parent.children.length - 1);
             }
 
-            uiOpacity.opacity = 100;
+            var overlayOpacity = this.failOverlay.getComponent(UIOpacity) || this.failOverlay.addComponent(UIOpacity);
+            overlayOpacity.opacity = 0;
+            var time1 = 0;
+            var duration1 = 0.5;
+            var interval1 = setInterval(() => {
+              time1 += 0.016;
+              var progress = Math.min(time1 / duration1, 1);
+
+              if (overlayOpacity && overlayOpacity.isValid) {
+                overlayOpacity.opacity = progress * 200;
+              }
+
+              if (progress >= 1) clearInterval(interval1);
+            }, 16);
+          } // Затем показываем спрайт Fail, чтобы он был поверх черного экрана
+
+
+          if (this.failSprite) {
+            this.failSprite.active = true;
+
+            if (this.failSprite.parent) {
+              // Вытаскиваем надпись еще выше, поверх черного фона
+              this.failSprite.setSiblingIndex(this.failSprite.parent.children.length - 1);
+            }
+
+            this.failSprite.setScale(new Vec3(0, 0, 0));
+            var time2 = 0;
+            var duration2 = 0.6;
+            var s = 1.70158;
+            var interval2 = setInterval(() => {
+              time2 += 0.016;
+              var t = Math.min(time2 / duration2, 1);
+              var t1 = t - 1;
+              var progress = t1 * t1 * ((s + 1) * t1 + s) + 1;
+
+              if (this.failSprite && this.failSprite.isValid) {
+                this.failSprite.setScale(new Vec3(progress, progress, progress));
+              }
+
+              if (t >= 1) clearInterval(interval2);
+            }, 16);
           }
         }
 
@@ -66,6 +137,20 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: function initializer() {
           return [];
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "failOverlay", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "failSprite", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
         }
       })), _class2)) || _class));
 

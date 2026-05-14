@@ -558,7 +558,7 @@
       "time": 1778614818812.6853
     },
     "scene.scene": {
-      "time": 1778795567213.797,
+      "time": 1778799214899.727,
       "uuid": "4b370b55-dcc3-485e-8b9f-4279dd8ea429"
     },
     "PREFABS\\Enemy.prefab.meta": {
@@ -747,7 +747,7 @@
       "time": 1778709500893.3901
     },
     "SCRIPTS\\HealthManager.ts": {
-      "time": 1778709512544.0825,
+      "time": 1778798944669.3333,
       "uuid": "c0cf8e01-2ece-4d1e-9208-3c767de43c06"
     },
     "SCRIPTS\\CashSpawner.ts.meta": {
@@ -782,7 +782,7 @@
       "time": 1778794901590.651
     },
     "SCRIPTS\\ScoreManager.ts": {
-      "time": 1778794921666.0376,
+      "time": 1778796906392.7144,
       "uuid": "f7d04ba8-eaf8-4b4c-90c3-a565b1ba0754"
     }
   },
