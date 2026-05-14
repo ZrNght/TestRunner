@@ -9,11 +9,14 @@
             "SCRIPTS",
             "OBJECTS\\Environment",
             "SCRIPTS\\BGLoop.ts",
+            "SCRIPTS\\CashController.ts",
+            "SCRIPTS\\CashSpawner.ts",
             "SCRIPTS\\EnemyController.ts",
             "SCRIPTS\\EnemySpawner.ts",
             "SCRIPTS\\EnvironmentLoop.ts",
             "SCRIPTS\\GameManager.ts",
             "SCRIPTS\\GameStart.ts",
+            "SCRIPTS\\HealthManager.ts",
             "SCRIPTS\\KonusSpawner.ts",
             "SCRIPTS\\PlayerController.ts",
             "SCRIPTS\\PlayerHitbox.ts",
@@ -21,6 +24,8 @@
             "SCRIPTS\\PulseEffect.ts",
             "SCRIPTS\\ResponsiveCursor.ts",
             "SCRIPTS\\ResponsiveText.ts",
+            "SCRIPTS\\ResponsSize.ts",
+            "SCRIPTS\\ResponsWidget.ts",
             "LilitaOne-Regular.ttf",
             "scene.scene",
             "ENEMY\\0.png",
@@ -106,11 +111,9 @@
             "OBJECTS\\Environment\\lamp.png",
             "OBJECTS\\Environment\\tree.png",
             "OBJECTS\\Environment\\tree1.png",
-            "SCRIPTS\\ResponsSize.ts",
-            "SCRIPTS\\ResponsWidget.ts",
-            "SCRIPTS\\HealthManager.ts",
-            "SCRIPTS\\CashSpawner.ts",
-            "SCRIPTS\\CashController.ts"
+            "SCRIPTS\\TutorialAvoid.ts",
+            "SCRIPTS\\TutorialCursor.ts",
+            "SCRIPTS\\ScoreManager.ts"
         ]
     }
 }

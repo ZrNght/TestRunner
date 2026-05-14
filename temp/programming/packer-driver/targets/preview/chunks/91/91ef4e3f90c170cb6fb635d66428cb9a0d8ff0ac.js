@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider2D, Contact2DType, Animation, Sprite, Color, tween, UIOpacity, HealthManager, _dec, _dec2, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, PlayerHitbox;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider2D, Contact2DType, Animation, Sprite, Color, tween, UIOpacity, Vec3, RigidBody2D, HealthManager, ScoreManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, PlayerHitbox;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,6 +11,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
   function _reportPossibleCrUseOfHealthManager(extras) {
     _reporterNs.report("HealthManager", "./HealthManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfScoreManager(extras) {
+    _reporterNs.report("ScoreManager", "./ScoreManager", _context.meta, extras);
   }
 
   return {
@@ -29,15 +33,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Color = _cc.Color;
       tween = _cc.tween;
       UIOpacity = _cc.UIOpacity;
+      Vec3 = _cc.Vec3;
+      RigidBody2D = _cc.RigidBody2D;
     }, function (_unresolved_2) {
       HealthManager = _unresolved_2.HealthManager;
+    }, function (_unresolved_3) {
+      ScoreManager = _unresolved_3.ScoreManager;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "6dc3dmfH5xFi5GviG7zMWuD", "PlayerHitbox", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Collider2D', 'Contact2DType', 'IPhysics2DContact', 'Animation', 'Sprite', 'Color', 'tween', 'UIOpacity']);
+      __checkObsolete__(['_decorator', 'Component', 'Collider2D', 'Contact2DType', 'IPhysics2DContact', 'Animation', 'Sprite', 'Color', 'tween', 'UIOpacity', 'Vec3', 'RigidBody2D']);
 
       ({
         ccclass,
@@ -48,6 +56,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         type: _crd && HealthManager === void 0 ? (_reportPossibleCrUseOfHealthManager({
           error: Error()
         }), HealthManager) : HealthManager
+      }), _dec3 = property({
+        type: _crd && ScoreManager === void 0 ? (_reportPossibleCrUseOfScoreManager({
+          error: Error()
+        }), ScoreManager) : ScoreManager
       }), _dec(_class = (_class2 = class PlayerHitbox extends Component {
         constructor() {
           super(...arguments);
@@ -55,6 +67,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "invincibilityDuration", _descriptor, this);
 
           _initializerDefineProperty(this, "healthManager", _descriptor2, this);
+
+          _initializerDefineProperty(this, "scoreManager", _descriptor3, this);
 
           this.isInvincible = false;
           this.playerAnimation = null;
@@ -75,9 +89,52 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         onBeginContact(selfCollider, otherCollider, contact) {
+          var nodeName = otherCollider.node.name;
+          var lowerName = nodeName.toLowerCase();
+
+          if (lowerName.includes('cash') || lowerName.includes('paypal')) {
+            otherCollider.enabled = false;
+            var rb = otherCollider.node.getComponent(RigidBody2D);
+            if (rb) rb.enabled = false;
+            var cashCtrl = otherCollider.node.getComponent('CashController');
+            if (cashCtrl) cashCtrl.enabled = false;
+            var enemyCtrl = otherCollider.node.getComponent('EnemyController');
+            if (enemyCtrl) enemyCtrl.enabled = false;
+
+            if (this.scoreManager) {
+              var startPos = otherCollider.node.worldPosition.clone();
+              var targetPos = this.scoreManager.node.worldPosition.clone();
+              var tweenData = {
+                t: 0
+              };
+              tween(tweenData).to(0.4, {
+                t: 1
+              }, {
+                easing: 'quadIn',
+                onUpdate: target => {
+                  if (otherCollider.node && otherCollider.node.isValid) {
+                    var currentPos = new Vec3();
+                    Vec3.lerp(currentPos, startPos, targetPos, target.t);
+                    otherCollider.node.worldPosition = currentPos;
+                    otherCollider.node.eulerAngles = new Vec3(0, 0, 1080 * target.t);
+                  }
+                }
+              }).call(() => {
+                if (otherCollider.node && otherCollider.node.isValid) {
+                  otherCollider.node.destroy();
+                  this.scoreManager.addScore(10, 20);
+                }
+              }).start();
+            } else {
+              otherCollider.node.destroy();
+            }
+
+            return;
+          }
+
           if (this.isInvincible) return;
 
-          if (otherCollider.node.name === 'Enemy-001' || otherCollider.node.name === 'Konus') {
+          if (nodeName === 'Enemy-001' || nodeName === 'Konus') {
             this.takeDamage();
           }
         }
@@ -124,6 +181,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           return 2.0;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "healthManager", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "scoreManager", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,

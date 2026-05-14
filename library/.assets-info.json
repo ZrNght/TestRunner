@@ -48,7 +48,7 @@
       "uuid": "b542261b-6997-4604-b63d-d63477fc6825"
     },
     "SCRIPTS": {
-      "time": 1778710774568.2622,
+      "time": 1778794901582.639,
       "uuid": "a0756d18-9f72-4bd7-83c6-a73a9554950e"
     },
     "OBJECTS\\Environment": {
@@ -519,7 +519,7 @@
       "uuid": "58772bc7-2392-45eb-9952-cc02f8163bc8"
     },
     "PREFABS\\cash.prefab": {
-      "time": 1778711347181.2683,
+      "time": 1778795157519.6074,
       "uuid": "646ca225-5193-427b-a8cd-f9d6bc064e00"
     },
     "PREFABS\\paypal.prefab": {
@@ -558,7 +558,7 @@
       "time": 1778614818812.6853
     },
     "scene.scene": {
-      "time": 1778711493334.9155,
+      "time": 1778795567213.797,
       "uuid": "4b370b55-dcc3-485e-8b9f-4279dd8ea429"
     },
     "PREFABS\\Enemy.prefab.meta": {
@@ -705,7 +705,7 @@
       "time": 1778702248203.7676
     },
     "SCRIPTS\\PlayerHitbox.ts": {
-      "time": 1778709571168.397,
+      "time": 1778795507632.0334,
       "uuid": "6dc3d99f-1f9c-458b-91af-886ef3316b83"
     },
     "SCRIPTS\\PulseEffect.ts.meta": {
@@ -763,6 +763,27 @@
     "SCRIPTS\\CashController.ts": {
       "time": 1778710784804.049,
       "uuid": "42871ded-9bcf-4e06-9a64-8990355d8187"
+    },
+    "SCRIPTS\\TutorialAvoid.ts.meta": {
+      "time": 1778792654072.618
+    },
+    "SCRIPTS\\TutorialAvoid.ts": {
+      "time": 1778793878806.2905,
+      "uuid": "48ef75b1-bc49-4493-b60b-5879486e156c"
+    },
+    "SCRIPTS\\TutorialCursor.ts.meta": {
+      "time": 1778793329357.8416
+    },
+    "SCRIPTS\\TutorialCursor.ts": {
+      "time": 1778794044984.2952,
+      "uuid": "dd993c12-1425-4c79-8268-e79057808d00"
+    },
+    "SCRIPTS\\ScoreManager.ts.meta": {
+      "time": 1778794901590.651
+    },
+    "SCRIPTS\\ScoreManager.ts": {
+      "time": 1778794921666.0376,
+      "uuid": "f7d04ba8-eaf8-4b4c-90c3-a565b1ba0754"
     }
   },
   "missing": {}

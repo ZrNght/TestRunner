@@ -2599,6 +2599,7 @@
         "45e7e9c8-617c-4ed1-9663-06beeb785254",
         "ec5b8674-ade8-438d-96ba-62ea8e5e2e06",
         "7f3032f6-8b36-4384-b722-58a4971dcb5b@f9941",
+        "510c438f-bc3d-443a-a05e-a8b1953387d7@f9941",
         "25f04a82-c85e-4e0f-90ff-bfc3d2025c38@f9941",
         "981b0141-de37-4fe6-a328-5d22e00a4e90@f9941",
         "48c0efc0-fd7d-4a18-96a3-42f8453d90aa@f9941",
@@ -2615,9 +2616,12 @@
         "6f981f09-6667-4f40-b017-afef547d5d98",
         "6d86f41d-5463-4281-86ca-604e8eb7c08e",
         "fe380672-02de-49a5-8824-2af4be56525d",
+        "48ef75b1-bc49-4493-b60b-5879486e156c",
+        "dd993c12-1425-4c79-8268-e79057808d00",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "c0cf8e01-2ece-4d1e-9208-3c767de43c06",
         "4a5a404f-8e25-4d87-b0e7-da225b4ded6d",
+        "f7d04ba8-eaf8-4b4c-90c3-a565b1ba0754",
         "3e3f3488-2863-4003-a758-88135322053a",
         "042f4a3e-61a0-4f6b-8c18-ee95b227c67c",
         "3bde39ec-a44f-47fa-8666-3df87c384d7b"
@@ -3019,6 +3023,21 @@
   },
   "42871ded-9bcf-4e06-9a64-8990355d8187": {
     "url": "db://assets/SCRIPTS/CashController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "48ef75b1-bc49-4493-b60b-5879486e156c": {
+    "url": "db://assets/SCRIPTS/TutorialAvoid.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dd993c12-1425-4c79-8268-e79057808d00": {
+    "url": "db://assets/SCRIPTS/TutorialCursor.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f7d04ba8-eaf8-4b4c-90c3-a565b1ba0754": {
+    "url": "db://assets/SCRIPTS/ScoreManager.ts",
     "value": {},
     "versionCode": 1
   }

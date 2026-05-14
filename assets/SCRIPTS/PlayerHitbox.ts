@@ -1,5 +1,6 @@
-import { _decorator, Component, Collider2D, Contact2DType, IPhysics2DContact, Animation, Sprite, Color, tween, UIOpacity } from 'cc';
+import { _decorator, Component, Collider2D, Contact2DType, IPhysics2DContact, Animation, Sprite, Color, tween, UIOpacity, Vec3, RigidBody2D } from 'cc';
 import { HealthManager } from './HealthManager';
+import { ScoreManager } from './ScoreManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('PlayerHitbox')
@@ -10,6 +11,9 @@ export class PlayerHitbox extends Component {
 
     @property({ type: HealthManager })
     public healthManager: HealthManager | null = null;
+
+    @property({ type: ScoreManager })
+    public scoreManager: ScoreManager | null = null;
 
     private isInvincible: boolean = false;
     private playerAnimation: Animation | null = null;
@@ -28,9 +32,54 @@ export class PlayerHitbox extends Component {
     }
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        const nodeName = otherCollider.node.name;
+        const lowerName = nodeName.toLowerCase();
+
+        if (lowerName.includes('cash') || lowerName.includes('paypal')) {
+            
+            otherCollider.enabled = false;
+            let rb = otherCollider.node.getComponent(RigidBody2D);
+            if (rb) rb.enabled = false;
+
+            let cashCtrl = otherCollider.node.getComponent('CashController');
+            if (cashCtrl) cashCtrl.enabled = false;
+            let enemyCtrl = otherCollider.node.getComponent('EnemyController');
+            if (enemyCtrl) enemyCtrl.enabled = false;
+
+            if (this.scoreManager) {
+                const startPos = otherCollider.node.worldPosition.clone();
+                const targetPos = this.scoreManager.node.worldPosition.clone();
+                const tweenData = { t: 0 };
+
+                tween(tweenData)
+                    .to(0.4, { t: 1 }, { 
+                        easing: 'quadIn',
+                        onUpdate: (target: any) => {
+                            if (otherCollider.node && otherCollider.node.isValid) {
+                                let currentPos = new Vec3();
+                                Vec3.lerp(currentPos, startPos, targetPos, target.t);
+                                otherCollider.node.worldPosition = currentPos;
+                                
+                                otherCollider.node.eulerAngles = new Vec3(0, 0, 1080 * target.t);
+                            }
+                        }
+                    })
+                    .call(() => {
+                        if (otherCollider.node && otherCollider.node.isValid) {
+                            otherCollider.node.destroy();
+                            this.scoreManager!.addScore(10, 20);
+                        }
+                    })
+                    .start();
+            } else {
+                otherCollider.node.destroy();
+            }
+            return;
+        }
+
         if (this.isInvincible) return;
 
-        if (otherCollider.node.name === 'Enemy-001' || otherCollider.node.name === 'Konus') {
+        if (nodeName === 'Enemy-001' || nodeName === 'Konus') {
             this.takeDamage();
         }
     }
