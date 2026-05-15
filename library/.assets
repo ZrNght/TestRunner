@@ -26,6 +26,9 @@
             "SCRIPTS\\ResponsiveText.ts",
             "SCRIPTS\\ResponsSize.ts",
             "SCRIPTS\\ResponsWidget.ts",
+            "SCRIPTS\\ScoreManager.ts",
+            "SCRIPTS\\TutorialAvoid.ts",
+            "SCRIPTS\\TutorialCursor.ts",
             "LilitaOne-Regular.ttf",
             "scene.scene",
             "ENEMY\\0.png",
@@ -110,10 +113,7 @@
             "OBJECTS\\Environment\\bush2.png",
             "OBJECTS\\Environment\\lamp.png",
             "OBJECTS\\Environment\\tree.png",
-            "OBJECTS\\Environment\\tree1.png",
-            "SCRIPTS\\TutorialAvoid.ts",
-            "SCRIPTS\\TutorialCursor.ts",
-            "SCRIPTS\\ScoreManager.ts"
+            "OBJECTS\\Environment\\tree1.png"
         ]
     }
 }

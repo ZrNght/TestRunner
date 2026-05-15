@@ -44,11 +44,11 @@
       "uuid": "65706c8c-276f-4ffa-b890-e1f72c1906ef"
     },
     "PREFABS": {
-      "time": 1778703635865.4968,
+      "time": 1778877854194.1006,
       "uuid": "b542261b-6997-4604-b63d-d63477fc6825"
     },
     "SCRIPTS": {
-      "time": 1778794901582.639,
+      "time": 1778877854196.1,
       "uuid": "a0756d18-9f72-4bd7-83c6-a73a9554950e"
     },
     "OBJECTS\\Environment": {
@@ -527,7 +527,7 @@
       "uuid": "f85ece44-209f-438c-bf3c-8c444292b13d"
     },
     "PREFABS\\Player.prefab": {
-      "time": 1778706654739.4138,
+      "time": 1778877854194.1006,
       "uuid": "ec5b8674-ade8-438d-96ba-62ea8e5e2e06"
     },
     "OBJECTS\\Environment\\bush.png": {
@@ -558,7 +558,7 @@
       "time": 1778614818812.6853
     },
     "scene.scene": {
-      "time": 1778799214899.727,
+      "time": 1778878188564.5237,
       "uuid": "4b370b55-dcc3-485e-8b9f-4279dd8ea429"
     },
     "PREFABS\\Enemy.prefab.meta": {
@@ -628,7 +628,7 @@
       "time": 1778698129779.552
     },
     "SCRIPTS\\GameStart.ts": {
-      "time": 1778698147922.8274,
+      "time": 1778877854195.1003,
       "uuid": "6f981f09-6667-4f40-b017-afef547d5d98"
     },
     "SCRIPTS\\EnemyController.ts.meta": {
@@ -747,7 +747,7 @@
       "time": 1778709500893.3901
     },
     "SCRIPTS\\HealthManager.ts": {
-      "time": 1778798944669.3333,
+      "time": 1778799318113.1287,
       "uuid": "c0cf8e01-2ece-4d1e-9208-3c767de43c06"
     },
     "SCRIPTS\\CashSpawner.ts.meta": {
@@ -768,7 +768,7 @@
       "time": 1778792654072.618
     },
     "SCRIPTS\\TutorialAvoid.ts": {
-      "time": 1778793878806.2905,
+      "time": 1778877854196.1,
       "uuid": "48ef75b1-bc49-4493-b60b-5879486e156c"
     },
     "SCRIPTS\\TutorialCursor.ts.meta": {
